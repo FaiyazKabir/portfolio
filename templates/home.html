@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+
+    <!-- personalized CSS -->
+    <link rel="stylesheet" href="../static/styles/master.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <div id="home">
+<!--navvbar-->
+    <nav class="navbar navbar-expand-lg py-3 px-0 bg-dark navbar-dark fixed-top">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Aboutme">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contacts">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<!-- background -->
+    <div class="background">
+      <img src="../static/images/bg_image_2.jpg" class="img-fluid" alt="">
+    </div>
+
+    <div class="heading-content text-center">
+      <h5>Hi I'm</h5>
+      <h1>Faiyaz Kabir</h1>
+    </div>
+</div>
+<!-- About me -->
+<div id="Aboutme" class="container py-5 my-5">
+
+  <div class="post-heading text-center">
+    <h3 class="display-4 fw-bold">About me</h3>
+    <hr class="w-50 mx-auto pb-5">
+  </div>
+
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-12">
+        <img src="../static/images/pngwing.com (2).png" alt="">
+    </div>
+  <div class="col-lg-6 col-md-6 col-12">
+    <h2>I'm Faiyaz Kabir,</h2>
+    <p>I'm a CSE undergrad student.
+      I'm into web development and desigining.
+      Since I mostly used python and django for backend web dev I also decided to
+      Study  machine learning and deep learning, mainly on NLP.
+      I have made some projects and use this website to showcase them.
+      I also use this website as a Portfolio.
+    </p>
+  </div>
+
+  </div>
+</div>
+
+<!-- Skills -->
+<div id="Skills" class="container py-5 my-5">
+  <div class="post-heading text-center">
+    <h3 class="display-4 fw-bold">Skills</h3>
+    <hr class="w-50 mx-auto pb-5">
+  </div>
+    <div class="card-group">
+      <div class="card">
+        <img src="../static/images/web-des.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Web design</h5>
+          <p class="card-text">These are the languages and frameworks that I used for designing web pages</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">HTML</li>
+          <li class="list-group-item">CSS</li>
+          <li class="list-group-item">Bootstrap</li>
+          <li class="list-group-item">Javascript</li>
+        </ul>
+      </div>
+      <div class="card">
+        <img src="../static/images/web-dev.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Backend web development</h5>
+          <p class="card-text">I mainly use django with mySQL for backend web development however I also used Java spring. These are the languages and frameworks
+          that I use for backend web development</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Python</li>
+          <li class="list-group-item">Django</li>
+          <li class="list-group-item">SQL</li>
+          <li class="list-group-item">Java</li>
+          <li class="list-group-item">Java Spring</li>
+        </ul>
+      </div>
+      <div class="card">
+        <img src="../static/images/data-science.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Data science and analysis</h5>
+          <p class="card-text">I'm also studying data science primarily machine learning and NLP. I have experiences with these frameworks</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Tensorflow</li>
+          <li class="list-group-item">Pandas</li>
+          <li class="list-group-item">Scikit learn</li>
+          <li class="list-group-item">Matplotlib</li>
+          <li class="list-group-item">RASA NLU</li>
+        </ul>
+      </div>
+    </div>
+</div>
+<!-- PROJECTS -->
+<div id="Projects" class="container py-5 my-5">
+
+  <div  class="post-heading text-center pb-5 mb-5">
+    <h3 class="display-4 fw-bold">Projects</h3>
+    <hr class="w-50 mx-auto pb-5">
+    <h5>These are the projects that I have worked on and there are more to come</h5>
+  </div>
+
+    <!-- Project Carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../static/images/Screenshots/Sub-manager/assign_task.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Taskit</h5>
+        <p>An employee management system where u can asssign tasks to employees and give a rating on their task performance for evaluation.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="../static/images/Screenshots/Employee/employee-current-tasks.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Employees task management</h5>
+        <p>Employees can also use this platform to check what tasks they have been given and complete these tasks. They can also check their ratings to judge their own performance.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<a class="btn btn-primary my-3" href="https://github.com/FaiyazKabir/Taskit" role="button">Code</a>
+
+  </div>
+<!-- Contact -->
+<div id = "Contact">
+  <footer class="bg-secondary bg-gradient text-white pt-5 pb-4">
+    <div class="container my-5">
+      <div class="row">
+
+        <div class="col-2 mx-auto">
+          <img src="../static/images/github_logo/Github-Mark-32px.png" href="https://github.com/FaiyazKabir" alt="">
+        </div>
+
+        <div class="col-6 mx-auto">
+          <img src="../static/images/bitbucket_logo/bitbucket (1).png" href="https://github.com/FaiyazKabir" alt="">
+        </div>
+
+      </div>
+    </div>
+  </footer>
+</div>
+
+  </body>
+</html>
